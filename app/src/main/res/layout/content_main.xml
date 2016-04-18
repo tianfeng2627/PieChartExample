@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="asiainfo.chartviewexample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.asiainfo.chartviewexample.ui.view.PieChartView xmlns:chart="http://schemas.android.com/apk/res/asiainfo.chartviewexample"
+        android:id="@+id/mian_chartview"
+        android:layout_width="@dimen/chatview_width"
+        android:layout_height="@dimen/chatview_heigh"
+        android:layout_centerInParent="true"
+        chart:selectOffset="6dp" />
+</RelativeLayout>
